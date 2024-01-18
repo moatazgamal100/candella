@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candella | Product Details</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+        <!-- TODO:-------------------START google fonts----------------- -->
+
+    <!-- TODO:-------------------END google fonts------------------- -->
+
+    <!-- TODO:-------------------START CSS Links----------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="css/jquery.min.js"></script>
+    <!-- TODO:-------------------END CSS Links------------------------ -->
+    
+    <!-- done:-------------------Start jQuery Links------------------------ -->
+    <script src="js/jquery.min.js"></script>      
+    <!-- done:-------------------END jQuery Links------------------------ -->
+
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <nav class="navbar fixed-top navbar-expand-lg shadow bg-body-tertiary rounded">
+            <div class="container-fluid d-flex align-items-center h-100 ">
+                <a class="navbar-brand d-flex justify-content-center align-items-center ms-5" href="index.html">
+                    <img src="images/logo.svg" class="logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse rounded-5 pt-2 toggle-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto d-flex align-items-center ms-auto ">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" id="signupIcon" href="signup.html"><i class="fa-solid fa-user"></i></a>
+                            <a class="nav-link hiddenIcon" id="signoutIcon" href="login.html"><i class="fa-solid fa-sign-out"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d-none" href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
+                        </li>
+                        <li class="nav-item" id="cart-icon">
+                            <a class="nav-link" href="cart.html"><i class="fa-solid fa-cart-shopping"></i>
+                                <span id="cart-count"></span>
+                            </a>
+                        </li>
+                    </ul>
+    
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section id="home" class="w-100 d-flex  flex-column justify-content-around mt-5">
+        <section id="p  roduct-details" class="d-flex align-items-center justify-content-center w-100 ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6">
+                        <div class="  m-0  d-flex justify-content-center BoxPro ">
+                            <img id="imgPro"class="rounded-5 w-75" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 py-4 ">
+                        <div class="  w-100 m-0 h-100 d-flex flex-column justify-content-between">
+                           <h3 id="title"></h3>
+                           <p class="descc lead bg"></p>
+                           <div>
+                            <div class="container px-4">
+                                <h5 class="fa-1x colBT">Quantity</h5>
+                                <div class="w-100 d-flex align-items-center justify-content-between">
+                                    <p class="border border-black py-1 px-4"><span id="plus" class="colBT">+</span><span id="count" class="ms-2 text-black ">1</span> <span id="min" class="ms-2 colBT fw-bolder">-</span></p>
+                                    <div><h2 id="sal" class="d-inline colBT"><h2 class="d-inline colBT"> $</h2> </h2></div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column justify-content-center">
+                                
+                            </div>
+                            <button id="add" class="bgcolBT btn-1  text-white w-100 mx-auto px-5 py-2 border-0 rounded-2 d-flex justify-content-center align-items-center">
+                                <i class="fa-solid fa-cart-shopping" id="icon"></i>
+                                <h5 class="">+ Add to cart</h5>
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        
+            </div>
+        </section>
+        <section id="similar-items">
+            <div class="container py-4  text-end">
+        <section id="similar-items" class=" ">
+            <div class="container py-4 ">
+                <h5 class="colBT title py-2 fw-bolder">Similar items</h5>
+                <div class="row similer_box text-left">
+                </div>
+                <button class="btn-1 bgcolBT px-5 mt-3 mx-auto bt-more ">More</button>
+            </div>
+        </section>
+    </section>
+        <!-- --------------------Footer-------------------- -->
+        <div class="footer">
+            <div class="footerSec1">
+                <img class="separator" src="images/line-1.svg" />
+                <div class="logoSection"> 
+                    <div class="logoSec">
+                        <img src="images/logo_b&w .svg" class="logoFooter">
+                        <p class="logoDesc">Candella &copy;.</p>
+                    </div>
+                    <div class="contactAboutSection">
+                        <a class="aboutFooter rounded-top-5" href="#" target="_parent" >About Us</a>
+                        <a class="contactFooter" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <div  class="aboutDiv">
+                <div class="aboutParagraph">
+                    <h5 class=" mb-5">Candella is a FrontEnd E-commerce Project.</h5>
+                    <h5>GitHub Repo :</h5>
+                    <a href="https://github.com/Remondarefat/JavaScript_Project.git ">
+                        https://github.com/Remondarefat/JavaScript_Project.git 
+                    </a>
+                    <h5 class="mt-5">Our Team:</h5>
+
+                    <div class="container">
+                        <div class="row justify-content-center align-items-center">
+
+                            <div class="col-md-2 col-sm-4 aboutFooterDiv">
+                                <img class=" rounded-circle aboutTeamImg" src="images/msps.jpeg" alt="">
+                                <p style="font-size: 12px; " class="">
+                                    <a class="" href="https://www.linkedin.com/in/marwan-salem-442b96151/"> 
+                                        <img src="images/linkedinlogo.png" class="gitIcon"> Marwan Salem
+                                    </a></p>
+                            </div>
+
+                            <div class="col-md-2 col-sm-4 aboutFooterDiv">
+                                <img class=" rounded-circle aboutTeamImg" src="images/mgps.jpg" alt="">
+                                <p style="font-size: 12px;">
+                                    <a class="" href="https://www.linkedin.com/in/moataz-gamal-293146217/"> 
+                                        <img src="images/linkedinlogo.png" class="gitIcon "> Moataz Gamal 
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-sm-4 aboutFooterDiv">
+                                <img class=" rounded-circle aboutTeamImg" src="images/rsps.jpg" alt="">
+                                <p style="font-size: 12px;">
+                                    <a class="" href="https://www.linkedin.com/in/rehab-sabry-08a864275/"> 
+                                        <img src="images/linkedinlogo.png" class="gitIcon"> Rehab Sabry
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-sm-4 aboutFooterDiv ">
+                                <img class=" rounded-circle aboutTeamImg" src="images/mnps.jpg" alt="">
+                                <p style="font-size: 12px;">
+                                    <a class="" href="https://www.linkedin.com/in/minanagib22/">
+                                        <img src="images/linkedinlogo.png" class="gitIcon "> Mina Naguib
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-sm-4 aboutFooterDiv ">
+                                <img class=" rounded-circle aboutTeamImg" src="images/rrps.jpg" alt="">
+                                <p style="font-size: 12px;">
+                                    <a class="" href="https://www.linkedin.com/in/remonda-refat-679a0b223/"> 
+                                        <img src="images/linkedinlogo.png" class="gitIcon"> Remonda Refaat
+                                    </a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 col-sm-4 aboutFooterDiv">
+                                <img class=" rounded-circle aboutTeamImg" src="images/seps.jpg" alt="">
+                                <p style="font-size: 12px;">
+                                    <a class="" href="https://www.linkedin.com/in/salma-e-856468138/"> 
+                                        <img src="images/linkedinlogo.png" class="gitIcon">Salma El Marhoumy
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="copyR">
+                <p class="copyrightParagraph">&copy; Candella inc All rights reserved</p>
+            </div>
+        
+    
+    
+        <script src="js/footer.js"></script>
+        <!-------------------------------------------- End Of Footer ------------------------------------------>
+
+    
+    <!-- TODO:-------------------JS Links------------------>
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/details.js"></script>
+    <!-- TODO:-------------------END JS Links---------------- -->
+</body>
+</html> 
